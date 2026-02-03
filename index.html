@@ -1,0 +1,1452 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light only" />
+
+    <title>معمل الممدوح | رولات شرنك، ستريتش، وأكياس تغليف صناعي</title>
+
+    <meta
+      name="description"
+      content="معمل الممدوح متخصص في إنتاج رولات الشرنك الحراري والستريتش وأكياس التغليف الصناعي المتينة. حلول تغليف اقتصادية وعالية الجودة بخبرة 6 سنوات."
+    />
+
+    <meta
+      name="keywords"
+      content="معمل الممدوح، رولات شرنك، ستريتش فيلم، تغليف صناعي، أكياس بلاستيك، تغليف أثاث، تغليف طبليات، نخب ثاني"
+    />
+
+    <meta name="supported-color-schemes" content="light" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* ===============================
+         VARIABLES
+      ================================ */
+      :root {
+        --primary: #1a365d;
+        --orange: #f97316;
+        --soft-blue: #bfdbfe;
+        --gray: #f3f4f6;
+        --stroke: #1a365d;
+        --white: #ffffff;
+      }
+
+      /* ===============================
+         RESET
+      ================================ */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Noto Sans Arabic", "Manrope", sans-serif;
+        background-color: #fff;
+        background-image: radial-gradient(#e5e7eb 2px, transparent 2px);
+        background-size: 32px 32px;
+        color: var(--primary);
+        min-height: 100vh;
+        line-height: 1.6;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      button {
+        font-family: inherit;
+        cursor: pointer;
+        border: none;
+        background: none;
+      }
+
+      /* ===============================
+         UTILITIES
+      ================================ */
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 20px;
+      }
+
+      .cartoon-card {
+        background: white;
+        border: 3px solid var(--stroke);
+        border-radius: 20px;
+        box-shadow: 6px 6px 0 var(--stroke);
+        overflow: hidden;
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+
+      .cartoon-card:hover {
+        transform: translate(2px, 2px);
+        box-shadow: 3px 3px 0 var(--stroke);
+      }
+
+      /* ===============================
+         HEADER
+      ================================ */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: rgba(255, 255, 255, 0.95);
+        border-bottom: 3px solid var(--stroke);
+        backdrop-filter: blur(5px);
+      }
+
+      .header-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 14px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo-container {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 900;
+        font-size: 20px;
+      }
+
+      .logo-icon {
+        background: var(--orange);
+        color: white;
+        padding: 8px;
+        border-radius: 12px;
+        border: 2px solid var(--stroke);
+        box-shadow: 2px 2px 0 var(--stroke);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .logo-icon svg {
+        width: 24px;
+        height: 24px;
+      }
+
+      .header-btn {
+        background: white;
+        padding: 10px 20px;
+        border-radius: 12px;
+        border: 2px solid var(--stroke);
+        box-shadow: 4px 4px 0 var(--stroke);
+        font-weight: 800;
+        font-size: 14px;
+        color: var(--primary);
+        transition: all 0.2s ease;
+      }
+
+      .header-btn:hover {
+        background: var(--soft-blue);
+        transform: translate(2px, 2px);
+        box-shadow: 2px 2px 0 var(--stroke);
+      }
+
+      /* ===============================
+         HERO
+      ================================ */
+      .hero {
+        padding: 80px 20px;
+        max-width: 900px;
+        margin: auto;
+        text-align: center;
+      }
+
+      .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: #fef3c7;
+        padding: 8px 16px;
+        border-radius: 999px;
+        border: 2px solid var(--stroke);
+        box-shadow: 3px 3px 0 var(--stroke);
+        font-weight: 800;
+        font-size: 14px;
+        margin-bottom: 24px;
+      }
+
+      .hero-title {
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 1.2;
+        margin-bottom: 24px;
+      }
+
+      .hero-title span {
+        color: var(--orange);
+        text-decoration: underline wavy;
+        text-decoration-thickness: 3px;
+      }
+
+      .hero-description {
+        font-size: 20px;
+        max-width: 600px;
+        margin: 0 auto 40px;
+        color: #4b5563;
+      }
+
+      .hero-buttons {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      /* ===============================
+         BUTTONS
+      ================================ */
+      .btn-primary,
+      .btn-secondary {
+        padding: 16px 32px;
+        border-radius: 16px;
+        border: 3px solid var(--stroke);
+        box-shadow: 6px 6px 0 var(--stroke);
+        font-weight: 800;
+        font-size: 18px;
+        transition: all 0.2s ease;
+      }
+
+      .btn-primary {
+        background: var(--orange);
+        color: white;
+      }
+
+      .btn-primary:hover {
+        transform: translate(2px, 2px);
+        box-shadow: 3px 3px 0 var(--stroke);
+        filter: brightness(1.1);
+      }
+
+      .btn-secondary {
+        background: white;
+        color: var(--primary);
+      }
+
+      .btn-secondary:hover {
+        background: var(--soft-blue);
+        transform: translate(2px, 2px);
+        box-shadow: 3px 3px 0 var(--stroke);
+      }
+
+      /* ===============================
+         SECTIONS
+      ================================ */
+      .section {
+        padding: 80px 20px;
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      /* .section-alt {
+        background: var(--gray);
+      } */
+
+      .section-title {
+        font-size: 36px;
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: 16px;
+        position: relative;
+        display: inline-block;
+        /* left: 50%; */
+        /* transform: translateX(-50%); */
+      }
+
+      .section-title::after {
+        content: "";
+        position: absolute;
+        bottom: 6px;
+        left: 0;
+        width: 100%;
+        height: 8px;
+        background: var(--soft-blue);
+        z-index: -1;
+        border-radius: 4px;
+      }
+
+      .section-subtitle {
+        text-align: center;
+        color: #6b7280;
+        margin-bottom: 50px;
+        font-size: 18px;
+      }
+
+      /* ===============================
+         PRODUCTS
+      ================================ */
+      .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+      }
+
+      .product-card {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        border: 3px solid var(--stroke);
+        border-radius: 20px;
+        box-shadow: 6px 6px 0 var(--stroke);
+        overflow: hidden;
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+
+      .product-card:hover {
+        transform: translate(2px, 2px);
+        box-shadow: 3px 3px 0 var(--stroke);
+      }
+
+      .product-image-container {
+        height: 250px;
+        background: var(--soft-blue);
+        border-bottom: 3px solid var(--stroke);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        overflow: hidden;
+      }
+
+      .product-image {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        filter: drop-shadow(4px 4px 0 rgba(26, 54, 93, 0.2));
+      }
+
+      .product-content {
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+
+      .product-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 12px;
+        gap: 10px;
+      }
+
+      .product-title {
+        font-size: 20px;
+        font-weight: 800;
+      }
+
+      .product-badge {
+        background: var(--orange);
+        color: white;
+        font-size: 12px;
+        padding: 4px 8px;
+        border-radius: 8px;
+        border: 2px solid var(--stroke);
+        font-weight: 700;
+        flex-shrink: 0;
+      }
+
+      .product-description {
+        font-size: 14px;
+        color: #4b5563;
+        margin-bottom: 16px;
+        flex-grow: 1;
+      }
+
+      .product-tags {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+
+      .product-tag {
+        background: var(--gray);
+        border: 2px solid var(--stroke);
+        padding: 4px 10px;
+        border-radius: 8px;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      /* ===============================
+         BENEFITS
+      ================================ */
+      .benefits-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .benefit-item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 24px;
+        background: white;
+        border: 3px solid var(--stroke);
+        border-radius: 20px;
+        box-shadow: 6px 6px 0 var(--stroke);
+      }
+
+      .benefit-icon {
+        width: 60px;
+        height: 60px;
+        min-width: 60px;
+        background: var(--soft-blue);
+        border: 3px solid var(--stroke);
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        box-shadow: 4px 4px 0 var(--stroke);
+      }
+
+      .benefit-title {
+        font-size: 18px;
+        font-weight: 800;
+        margin-bottom: 4px;
+      }
+
+      .benefit-description {
+        font-size: 14px;
+        color: #4b5563;
+      }
+
+      /* ===============================
+         SECTORS
+      ================================ */
+      .sectors-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 24px;
+      }
+
+      .sector-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 10px;
+        text-align: center;
+        background: white;
+        border: 3px solid var(--stroke);
+        border-radius: 20px;
+        box-shadow: 6px 6px 0 var(--stroke);
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+
+      .sector-item:hover {
+        transform: translate(2px, 2px);
+        box-shadow: 3px 3px 0 var(--stroke);
+      }
+
+      .sector-icon {
+        font-size: 40px;
+        margin-bottom: 16px;
+      }
+
+      .sector-title {
+        font-weight: 800;
+        font-size: 14px;
+      }
+
+      /* ===============================
+         FAQ
+      ================================ */
+      .faq-list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .faq-item {
+        padding: 20px;
+        cursor: pointer;
+        background: white;
+        border: 3px solid var(--stroke);
+        border-radius: 16px;
+        box-shadow: 6px 6px 0 var(--stroke);
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+
+      .faq-item:hover {
+        transform: translate(2px, 2px);
+        box-shadow: 3px 3px 0 var(--stroke);
+      }
+
+      .faq-question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 800;
+        font-size: 16px;
+      }
+
+      .faq-arrow {
+        transition: transform 0.3s ease;
+      }
+
+      .faq-item.active .faq-arrow {
+        transform: rotate(180deg);
+      }
+
+      .faq-answer {
+        max-height: 0;
+        overflow: hidden;
+        transition:
+          max-height 0.3s ease,
+          margin-top 0.3s ease,
+          padding-top 0.3s ease;
+        color: #4b5563;
+        font-size: 14px;
+      }
+
+      .faq-item.active .faq-answer {
+        max-height: 200px;
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: 2px dashed #cbd5e1;
+      }
+
+      /* ===============================
+         FORM
+      ================================ */
+      .lead-form-container {
+        background: white;
+        padding: 40px;
+        max-width: 700px;
+        margin: 0 auto;
+        border: 3px solid var(--stroke);
+        border-radius: 20px;
+        box-shadow: 6px 6px 0 var(--stroke);
+      }
+
+      .form-title {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 800;
+        margin-bottom: 10px;
+      }
+
+      .form-description {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #6b7280;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+
+      .form-label {
+        display: block;
+        font-weight: 800;
+        margin-bottom: 8px;
+        font-size: 14px;
+      }
+
+      .form-input,
+      .form-select {
+        width: 100%;
+        padding: 14px;
+        border: 3px solid var(--stroke);
+        border-radius: 12px;
+        font-family: inherit;
+        font-size: 16px;
+        background: var(--gray);
+        transition: all 0.2s ease;
+      }
+
+      .form-input:focus,
+      .form-select:focus {
+        outline: none;
+        background: white;
+        box-shadow: 4px 4px 0 var(--stroke);
+        transform: translate(-2px, -2px);
+      }
+
+      .form-submit {
+        width: 100%;
+        background: var(--orange);
+        color: white;
+        padding: 16px;
+        border: 3px solid var(--stroke);
+        border-radius: 12px;
+        font-weight: 800;
+        font-size: 18px;
+        box-shadow: 6px 6px 0 var(--stroke);
+        margin-top: 20px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+
+      .form-submit:hover {
+        transform: translate(2px, 2px);
+        box-shadow: 3px 3px 0 var(--stroke);
+        filter: brightness(1.1);
+      }
+
+      /* ===============================
+         FOOTER
+      ================================ */
+      footer {
+        background: var(--primary);
+        color: white;
+        padding: 60px 20px;
+        text-align: center;
+        border-top: 4px solid black;
+        margin-top: 60px;
+      }
+
+      .footer-content {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+      }
+
+      .footer-logo {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 900;
+        font-size: 20px;
+      }
+
+      .footer-logo .logo-icon {
+        background: var(--orange);
+        color: white;
+        padding: 8px;
+        border-radius: 12px;
+        border: 2px solid white;
+        box-shadow: 2px 2px 0 white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .footer-description {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 14px;
+        max-width: 400px;
+      }
+
+      .footer-social {
+        display: flex;
+        gap: 16px;
+        margin-top: 10px;
+      }
+
+      .social-icon {
+        width: 48px;
+        height: 48px;
+        background: white;
+        border: 3px solid black;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--primary);
+        box-shadow: 3px 3px 0 black;
+        transition: transform 0.2s ease;
+      }
+
+      .social-icon:hover {
+        transform: translateY(-4px);
+      }
+
+      .social-icon svg {
+        width: 24px;
+        height: 24px;
+      }
+
+      .footer-copyright {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 14px;
+        margin-top: 20px;
+      }
+
+      /* ===============================
+         WHATSAPP FLOAT
+      ================================ */
+      .whatsapp-float {
+        position: fixed;
+        bottom: 2rem;
+        left: 2rem;
+        z-index: 1000;
+      }
+
+      .whatsapp-btn {
+        width: 60px;
+        height: 60px;
+        background-color: #25d366;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 8px 30px rgba(37, 211, 102, 0.4);
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        border: 3px solid white;
+      }
+
+      .whatsapp-btn:hover {
+        transform: scale(1.1);
+      }
+
+      .whatsapp-icon {
+        width: 35px;
+        height: 35px;
+        fill: #ffffff;
+      }
+
+      /* WhatsApp Popup */
+      .whatsapp-popup {
+        position: fixed;
+        bottom: 6rem;
+        left: 2rem;
+        width: 320px;
+        background-color: #ffffff;
+        border-radius: 1rem;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+        z-index: 999;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(20px);
+        transition: all 0.3s ease;
+        border: 3px solid var(--stroke);
+      }
+
+      .whatsapp-popup.show {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+
+      .whatsapp-popup-header {
+        background-color: #25d366;
+        padding: 1.25rem;
+        border-radius: 0.8rem 0.8rem 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .whatsapp-popup-title {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 1rem;
+      }
+
+      .whatsapp-close {
+        background: none;
+        border: none;
+        color: #ffffff;
+        font-size: 1.5rem;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .whatsapp-popup-body {
+        padding: 1.5rem;
+        color: #1f2937;
+      }
+
+      .whatsapp-message {
+        background-color: #f3f4f6;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        margin-bottom: 1.25rem;
+        font-size: 0.875rem;
+        line-height: 1.6;
+        text-align: right;
+        direction: rtl;
+      }
+
+      .whatsapp-input {
+        width: 100%;
+        padding: 0.875rem;
+        border: 2px solid var(--stroke);
+        border-radius: 0.5rem;
+        font-size: 0.875rem;
+        margin-bottom: 1rem;
+        font-family: "Noto Sans Arabic", sans-serif;
+        text-align: right;
+        direction: rtl;
+      }
+
+      .whatsapp-input:focus {
+        outline: none;
+        border-color: #25d366;
+      }
+
+      .whatsapp-send {
+        width: 100%;
+        background-color: #25d366;
+        color: #ffffff;
+        padding: 0.875rem;
+        border: none;
+        border-radius: 0.5rem;
+        font-weight: 700;
+        cursor: pointer;
+        font-family: "Noto Sans Arabic", sans-serif;
+        font-size: 0.875rem;
+        transition: background-color 0.3s ease;
+      }
+
+      .whatsapp-send:hover {
+        background-color: #20ba5a;
+      }
+
+      /* ===============================
+         RESPONSIVE
+      ================================ */
+      @media (max-width: 768px) {
+        .header-container {
+          padding: 10px 15px;
+        }
+
+        .logo-text {
+          font-size: 16px;
+        }
+
+        .header-btn {
+          padding: 8px 16px;
+          font-size: 12px;
+        }
+
+        .hero {
+          padding: 50px 15px;
+        }
+
+        .hero-title {
+          font-size: 28px;
+        }
+
+        .hero-description {
+          font-size: 16px;
+        }
+
+        .hero-buttons {
+          flex-direction: column;
+          width: 100%;
+        }
+
+        .btn-primary,
+        .btn-secondary {
+          width: 100%;
+        }
+
+        .section {
+          padding: 50px 15px;
+        }
+
+        .section-title {
+          font-size: 24px;
+        }
+
+        .products-grid {
+          grid-template-columns: 1fr;
+          gap: 24px;
+        }
+
+        .sectors-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .form-row {
+          grid-template-columns: 1fr;
+        }
+
+        .lead-form-container {
+          padding: 24px;
+        }
+
+        .benefit-item {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .whatsapp-popup {
+          left: 1rem;
+          right: 1rem;
+          width: auto;
+          max-width: calc(100% - 2rem);
+        }
+
+        .whatsapp-float {
+          bottom: 1.5rem;
+          left: 1.5rem;
+        }
+      }
+
+      @media (min-width: 769px) and (max-width: 1024px) {
+        .products-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .hero-title {
+          font-size: 36px;
+        }
+      }
+
+      @media (min-width: 1025px) {
+        .hero-title {
+          font-size: 48px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-container">
+        <div class="logo-container">
+          <div class="logo-icon">
+            <svg fill="white" viewBox="0 0 24 24">
+              <path
+                d="M22 21H2V3l7 4 7-4 6 4v14zm-2-2V8.55l-4.5-3-7 4-6.5-3.7V19h18zM7 16h3v-3H7v3zm5 0h3v-3h-3v3z"
+              />
+            </svg>
+          </div>
+          <span class="logo-text">معمل الممدوح</span>
+        </div>
+        <button class="header-btn" onclick="scrollToForm()">اتصل بنا</button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <!-- <div class="hero-badge">رائدون في صناعة التغليف</div> -->
+        <div class="hero-badge">شريككم الموثوق لحلول التغليف</div>
+        <h1 class="hero-title">
+          حلول تغليف صناعية تضمن <span>حماية منتجاتك</span>
+        </h1>
+        <!-- <p class="hero-description">
+          نحن متخصصون في إنتاج رولات الشرنك، الستريتش، وأكياس الـطويلة عالية
+          الجودة الجودة المصممة خصيصاً لتلبية أعلى المعايير الصناعية.
+        </p> -->
+        <p class="hero-description">
+          متخصصون في توريد رولات الشرنك والستريتش، بالإضافة إلى أكياس التغليف
+          الصناعي (نخب ثاني) عالية المتانة، المصممة خصيصاً لحماية المنتجات
+          وتأمين الطرود بأسعار تنافسية.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn-primary" onclick="scrollToForm()">
+            اطلب عرض سعر
+          </button>
+          <button class="btn-secondary" onclick="scrollToProducts()">
+            كتالوج المنتجات
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section" id="products-section">
+      <h2 class="section-title">منتجاتنا الرئيسية</h2>
+      <div class="products-grid" id="contact-product">
+        <div class="product-card">
+          <div class="product-image-container">
+            <img
+              src="public/images/shrink.jpg"
+              alt="رولات شرنك للتغليف الصناعي"
+              class="product-image"
+            />
+          </div>
+          <div class="product-content">
+            <div class="product-header">
+              <h3 class="product-title">رولات شرنك</h3>
+              <span class="product-badge">تغليف حراري</span>
+            </div>
+            <p class="product-description">
+              مثالي لتجميع المنتجات وحمايتها من الرطوبة والأتربة بقوة انكماش
+              عالية.
+            </p>
+            <div class="product-tags">
+              <span class="product-tag">متانة جيدة</span>
+              <span class="product-tag">سماكة حسب الطلب</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image-container">
+            <img
+              src="public/images/stretch.jpg"
+              alt="رولات ستريتش شفافة"
+              class="product-image"
+            />
+          </div>
+          <div class="product-content">
+            <div class="product-header">
+              <h3 class="product-title">رولات ستريتش</h3>
+              <span class="product-badge">ثبات المنصات</span>
+            </div>
+            <p class="product-description">
+              مرونة فائقة ومقاومة للثقب لتثبيت الطرود على الطبليات الخشبية
+              بأمان.
+            </p>
+            <div class="product-tags">
+              <span class="product-tag">متانة جيدة</span>
+              <span class="product-tag">قوة شد</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image-container">
+            <img
+              src="public/images/bags.jpg"
+              alt="أكياس تغليف ضخمة"
+              class="product-image"
+            />
+          </div>
+          <div class="product-content">
+            <div class="product-header">
+              <h3 class="product-title">أكياس ضخمة 1.5م</h3>
+              <span class="product-badge">متعدد الاستخدام</span>
+            </div>
+            <p class="product-description">
+              أكياس بلاستيك قوية بطول 1.5 متر ( يمكن طلب طول مخصص ) مثالية
+              للأحجام الكبيرة والتغليف الصناعي.
+            </p>
+            <div class="product-tags">
+              <span class="product-tag">متانة جيدة</span>
+              <span class="product-tag">غير مخصص للسوائل او البودرة</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section section-alt">
+      <h2 class="section-title">لماذا تختار معمل الممدوح؟</h2>
+      <p class="section-subtitle">
+        نحن شركاء في نجاح مصنعك من خلال الجودة والكفاءة
+      </p>
+
+      <div class="benefits-grid">
+        <div class="benefit-item">
+          <div class="benefit-icon">⚡</div>
+          <div>
+            <h3 class="benefit-title">توفير الوقت</h3>
+            <p class="benefit-description">
+              سرعة في التوريد والتسليم تضمن عدم توقف خطوط إنتاجك.
+            </p>
+          </div>
+        </div>
+
+        <div class="benefit-item">
+          <div class="benefit-icon">🔄</div>
+          <div>
+            <h3 class="benefit-title">تقليل الهدر</h3>
+            <p class="benefit-description">
+              خاماتنا توفر تغليفاً فعالاً يقلل من تلف المنتجات أثناء النقل.
+            </p>
+          </div>
+        </div>
+
+        <div class="benefit-item">
+          <div class="benefit-icon">✓</div>
+          <div>
+            <h3 class="benefit-title">اعتمادية كاملة</h3>
+            <p class="benefit-description">
+              مطابقة للمواصفات العالمية لضمان أعلى مستويات الحماية.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">القطاعات التي نخدمها</h2>
+      <div class="sectors-grid">
+        <div class="sector-item">
+          <div class="sector-icon">🥤</div>
+          <span class="sector-title">قطاع المشروبات والألبان</span>
+        </div>
+
+        <div class="sector-item">
+          <div class="sector-icon">🪑</div>
+          <span class="sector-title">الأثاث والمفروشات</span>
+        </div>
+
+        <div class="sector-item">
+          <div class="sector-icon">🚚</div>
+          <span class="sector-title">الخدمات اللوجستية</span>
+        </div>
+
+        <div class="sector-item">
+          <div class="sector-icon">⚙️</div>
+          <span class="sector-title">الصناعات البلاستيكية</span>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ Section -->
+    <section class="section section-alt">
+      <h2 class="section-title">الأسئلة الشائعة</h2>
+      <div class="faq-list">
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-question">
+            <span>ما هو الحد الأدنى للطلب (MOQ)؟</span>
+            <span class="faq-arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            الحد الأدنى للطلب يختلف حسب نوع المنتج. بشكل عام، نبدأ من 500 كجم
+            للرولات و 250 كجم للأكياس. يمكننا مناقشة متطلباتك الخاصة للوصول إلى
+            أفضل حل.
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-question">
+            <span>هل تتوفر مقاسات مخصصة؟</span>
+            <span class="faq-arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            نعم، نوفر مقاسات وسماكات مخصصة حسب احتياجات مصنعك. فريقنا الفني
+            مستعد لمساعدتك في تحديد المواصفات المثالية لمنتجاتك.
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-question">
+            <span>هل توفرون عينات للتجربة</span>
+            <span class="faq-arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            نعم، نحن نؤمن بأن التجربة هي خير برهان. نوفر عينات مجانية من رولات
+            الشرنك، الستريتش، أو الأكياس الصناعية لتجربتها على خطوط إنتاجكم
+            والتأكد من مطابقتها لاحتياجاتكم قبل اعتماد الطلب.
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-question">
+            <span
+              >هل تشترون أو تستبدلون فضلات البلاستيك الناتجة عن عملية
+              التغليف؟</span
+            >
+            <span class="faq-arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            التأكيد، نحن ندعم دورة إعادة التدوير بالكامل. يمكننا الاتفاق على سحب
+            مخلفات (هدر) الشرنك من مصنعكم وإعادة معالجتها، مما يوفر عليكم عناء
+            التخلص منها ويقلل من صافي تكاليف مواد التغليف لديكم.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lead Form Section -->
+    <section class="section" id="contact-form">
+      <div class="lead-form-container">
+        <h2 class="form-title">اطلب عرض سعر الآن</h2>
+        <p class="form-description">
+          املأ البيانات وسيقوم فريقنا بالتواصل معك خلال 24 ساعة
+        </p>
+
+        <form onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label class="form-label">اسم الشركة</label>
+            <input
+              type="text"
+              class="form-input"
+              placeholder="شركة ... المحدودة"
+              required
+            />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">المنتج المطلوب</label>
+              <select class="form-select" required>
+                <option value="">اختر المنتج</option>
+                <option value="shrink">شرنك</option>
+                <option value="stretch">ستريتش</option>
+                <option value="bags">أكياس 1.5م</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">الكمية التقديرية</label>
+              <input
+                type="text"
+                class="form-input"
+                placeholder="مثلاً: 500 كجم"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">رقم الجوال</label>
+            <input
+              type="tel"
+              class="form-input"
+              placeholder="05xxxxxxxx"
+              required
+            />
+          </div>
+
+          <button type="submit" class="form-submit">إرسال الطلب</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo-icon">
+            <svg fill="white" viewBox="0 0 24 24">
+              <path
+                d="M22 21H2V3l7 4 7-4 6 4v14zm-2-2V8.55l-4.5-3-7 4-6.5-3.7V19h18zM7 16h3v-3H7v3zm5 0h3v-3h-3v3z"
+              />
+            </svg>
+          </div>
+          <span>معمل الممدوح</span>
+        </div>
+
+        <p class="footer-description">
+          الجودة والاحترافية في حلول التغليف الصناعي. نخدم العديد المصانع في
+          المنطقة .
+        </p>
+
+        <div class="footer-social">
+          <!-- Facebook Page -->
+          <a
+            href="https://www.facebook.com/share/1BebKD7FD6/"
+            class="social-icon"
+            target="_blank"
+            aria-label="Facebook Page"
+          >
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-2.9h2V9.5c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2v1.5h2.6l-.4 2.9h-2.2v7A10 10 0 0 0 22 12z"
+              />
+            </svg>
+          </a>
+
+          <!-- Google Maps Location -->
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=الممدوح+للبلاستيك"
+            class="social-icon"
+            target="_blank"
+            aria-label="Google Maps Location"
+          >
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+              />
+            </svg>
+          </a>
+
+          <!-- Email -->
+          <a
+            href="mailto:mnmnmn196819681968@gmail.com"
+            class="social-icon"
+            aria-label="Email"
+          >
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+              />
+            </svg>
+          </a>
+
+          <!-- WhatsApp -->
+          <a
+            href="https://wa.me/963934202071"
+            class="social-icon"
+            aria-label="WhatsApp"
+            target="_blank"
+          >
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.94 3.659 1.437 5.634 1.437h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <p class="footer-copyright">© 2026 جميع الحقوق محفوظة لمعمل الممدوح</p>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+      <button
+        class="whatsapp-btn"
+        onclick="toggleWhatsApp()"
+        aria-label="فتح واتساب"
+      >
+        <svg class="whatsapp-icon" viewBox="0 0 24 24">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+          />
+        </svg>
+      </button>
+    </div>
+
+    <!-- WhatsApp Popup -->
+    <div class="whatsapp-popup" id="whatsappPopup">
+      <div class="whatsapp-popup-header">
+        <span class="whatsapp-popup-title">تواصل معنا عبر واتساب</span>
+        <button
+          class="whatsapp-close"
+          onclick="toggleWhatsApp()"
+          aria-label="إغلاق"
+        >
+          ✕
+        </button>
+      </div>
+      <div class="whatsapp-popup-body">
+        <div class="whatsapp-message">
+          مرحباً! 👋<br />
+          كيف يمكننا مساعدتك اليوم؟ نحن هنا للرد على استفساراتك حول منتجاتنا من
+          التغليف الصناعي.
+        </div>
+        <input
+          type="text"
+          class="whatsapp-input"
+          id="whatsappMessage"
+          placeholder="اكتب رسالتك هنا..."
+        />
+        <button class="whatsapp-send" onclick="sendWhatsApp()">
+          إرسال الرسالة
+        </button>
+      </div>
+    </div>
+
+    <script>
+      // FAQ Toggle
+      function toggleFaq(element) {
+        element.classList.toggle("active");
+      }
+
+      // WhatsApp Popup Toggle
+      function toggleWhatsApp() {
+        const popup = document.getElementById("whatsappPopup");
+        popup.classList.toggle("show");
+      }
+
+      // Send WhatsApp Message
+      function sendWhatsApp() {
+        const message = document.getElementById("whatsappMessage").value;
+        const phoneNumber = "963939916135";
+        const encodedMessage = encodeURIComponent(
+          message || "مرحباً، أود الاستفسار عن منتجاتكم",
+        );
+        window.open(
+          `https://wa.me/${phoneNumber}?text=${encodedMessage}`,
+          "_blank",
+        );
+      }
+
+      // Handle Form Submit
+      function handleFormSubmit(event) {
+        event.preventDefault();
+
+        // Collect form data
+        const companyName = document.querySelector(
+          'input[placeholder="شركة ... المحدودة"]',
+        ).value;
+        const product = document.querySelector(".form-select").value;
+        const quantity = document.querySelector(
+          'input[placeholder="مثلاً: 500 كجم"]',
+        ).value;
+        const phone = document.querySelector(
+          'input[placeholder="05xxxxxxxx"]',
+        ).value;
+
+        // Convert product to text
+        let productText = "";
+        if (product === "shrink") productText = "شرنك";
+        if (product === "stretch") productText = "ستريتش";
+        if (product === "bags") productText = "أكياس 1.5 متر";
+
+        // Create message
+        const message = `
+طلب عرض سعر جديد 🏭
+
+اسم الشركة: ${companyName}
+المنتج المطلوب: ${productText}
+الكمية التقديرية: ${quantity}
+رقم التواصل: ${phone}
+        `.trim();
+
+        const whatsappNumber = "963939916135";
+        const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+          message,
+        )}`;
+
+        window.open(whatsappURL, "_blank");
+        event.target.reset();
+      }
+
+      // Scroll to Form
+      function scrollToForm() {
+        document
+          .getElementById("contact-form")
+          .scrollIntoView({ behavior: "smooth" });
+      }
+
+      // Scroll to Products
+      function scrollToProducts() {
+        document
+          .getElementById("products-section")
+          .scrollIntoView({ behavior: "smooth" });
+      }
+
+      // Close WhatsApp popup when clicking outside
+      document.addEventListener("click", function (event) {
+        const popup = document.getElementById("whatsappPopup");
+        const button = document.querySelector(".whatsapp-btn");
+
+        if (!popup.contains(event.target) && !button.contains(event.target)) {
+          popup.classList.remove("show");
+        }
+      });
+    </script>
+  </body>
+</html>
