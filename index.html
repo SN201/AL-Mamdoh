@@ -986,7 +986,7 @@
         <div class="product-card">
           <div class="product-image-container">
             <img
-              src="../images/shrink.jpg"
+              src="images/shrink.jpg"
               alt="رولات شرنك للتغليف الصناعي"
               class="product-image"
             />
@@ -1010,7 +1010,7 @@
         <div class="product-card">
           <div class="product-image-container">
             <img
-              src="../images/stretch.jpg"
+              src="images/stretch.jpg"
               alt="رولات ستريتش شفافة"
               class="product-image"
             />
@@ -1034,7 +1034,7 @@
         <div class="product-card">
           <div class="product-image-container">
             <img
-              src="../images/bags.jpg"
+              src="images/bags.jpg"
               alt="أكياس تغليف ضخمة"
               class="product-image"
             />
@@ -1373,7 +1373,7 @@
       // Send WhatsApp Message
       function sendWhatsApp() {
         const message = document.getElementById("whatsappMessage").value;
-        const phoneNumber = "963939916135";
+        const phoneNumber = "963934202071";
         const encodedMessage = encodeURIComponent(
           message || "مرحباً، أود الاستفسار عن منتجاتكم",
         );
@@ -1389,21 +1389,21 @@
 
         // Collect form data
         const companyName = document.querySelector(
-          'input[placeholder="شركة ... المحدودة"]',
+          'input[placeholder="شركة .."]',
         ).value;
         const product = document.querySelector(".form-select").value;
         const quantity = document.querySelector(
           'input[placeholder="مثلاً: 500 كجم"]',
         ).value;
         const phone = document.querySelector(
-          'input[placeholder="05xxxxxxxx"]',
+          'input[placeholder="09xxxxxxxx"]',
         ).value;
 
         // Convert product to text
         let productText = "";
         if (product === "shrink") productText = "شرنك";
         if (product === "stretch") productText = "ستريتش";
-        if (product === "bags") productText = "أكياس 1.5 متر";
+        if (product === "bags") productText = "أكياس  ";
 
         // Create message
         const message = `
@@ -1415,7 +1415,7 @@
 رقم التواصل: ${phone}
         `.trim();
 
-        const whatsappNumber = "963939916135";
+        const whatsappNumber = "963934202071";
         const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
           message,
         )}`;
